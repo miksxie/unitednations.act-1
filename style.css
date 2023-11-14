@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    padding: 0px    
+}
+h1::after {
+    content: '"Unity of every country, peacefullness is the main asset."';
+    display: block;
+    font-size: 30px;
+}
+body { 
+    background: url('header1.jpg') no-repeat;
+    background-size: 100%;
+    background-position: top;
+
+}
+.header { /*this is for the gradient*/
+    min-height: 65vh;
+    display: grid;
+    place-items: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 8px 8px 10px white;
+}
+.content{ /*this is for the content or description*/
+    min-height: 100vh;
+    background-color: rgb(115, 157, 204);
+    box-shadow: 0 0 50px 40px rgb(115, 157, 204);
+    background-size: cover;
+}
+img {
+    border-radius: 50px;
+    box-shadow: 5px 10px 8px 10px rgb(12, 12, 36);
+    display: block;
+    margin-left: 40vh;
+    margin-bottom: 10vh;
+    width: 60%;
+}
+h3 {
+    font-size: 30px;
+    font-family: helvetica;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    
+}
+p {
+    font-size: 20px;
+    text-align: center;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+a {
+    background-color: rgb(4, 50, 71);
+    color: rgb(191, 192, 206);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    font-family: Georgia;
+}
+
+a:hover {
+    background-color: rgb(10, 97, 10);
+
+}
